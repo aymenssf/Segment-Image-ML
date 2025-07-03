@@ -1,0 +1,31 @@
+# Dépendances pour le fine-tuning SAM simplifié
+# Version académique - usage éducatif
+
+# PyTorch et torchvision (versions compatibles)
+torch>=2.7.0
+torchvision>=0.22.0
+
+# Transformers pour SAM
+transformers
+
+# Bibliothèques de base pour le traitement d'images
+numpy
+matplotlib
+Pillow
+tifffile
+scipy
+
+# Bibliothèques pour la division d'images en patches
+patchify
+
+# HuggingFace datasets pour la gestion des données
+datasets
+
+# MONAI pour les fonctions de perte avancées
+monai
+
+# Bibliothèques utilitaires
+tqdm
+
+# Segment Anything Model (SAM) de Meta AI
+git+https://github.com/facebookresearch/segment-anything.git
